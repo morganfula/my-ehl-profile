@@ -1,0 +1,133 @@
+/** {
+  border: 1px solid red;
+}
+*/
+body {
+  background-color: #f6f8fb;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#image-round {
+  width: 200px;
+  border-radius: 50%;
+
+  }
+
+.button {
+  text-decoration: none;
+  background-color: red;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 16px 24px;
+  border-radius: 12px;
+
+  display: inline-block;
+
+
+  transition: all 0.2s ease-in-out;
+
+}
+
+.button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.button-primary {
+  background-color: #6f94e6;
+}
+
+h2 {
+  color: #91cc94;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.card-white {
+  background-color: #fff;
+
+  margin: 24px 0;
+  padding: 24px;
+  border-radius: 6px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+}
+
+i {
+  font-size: 48px;
+  text-decoration: none;
+  color: lightgrey;
+
+  transition: color .3s ease-in-out;
+}
+
+i:hover {
+  color: black;
+}
+
+a  {
+  text-decoration: none;
+}
+
+ul li {
+  margin: 0 16px;
+  display: inline;
+}
+
+.container {
+  width: 700px;
+  margin: 24px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 500px;
+  }
+
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 400px ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
